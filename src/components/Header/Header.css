@@ -1,0 +1,116 @@
+.header {
+    height: 34vw;
+    margin: 30px auto;
+    background: url(/header_img.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    position: relative;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.header-content {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.5vw;
+    max-width: 50%;
+    bottom: 10%;
+    left: 6vw;
+    animation: fadein 3s;
+    padding-right: 10px;
+}
+
+.header-content h2 {
+    font-weight: 500;
+    font-size: max(4.5vw, 2.2rem);
+    color: var(--theme-color);
+    text-shadow:
+        0.7px 0.7px 0 #fff,
+        -0.7px 0.7px 0 #fff,
+        0.7px -0.7px 0 #fff,
+        -0.7px -0.7px 0 #fff;
+}
+
+.header-content p {
+    color: var(--theme-color);
+    font-size: 1vw;
+    line-height: 1.5;
+}
+
+.header-content button {
+    border: none;
+    color: #747474;
+    padding: 1vw 2.3vw;
+    background-color: white;
+    border-radius: 5px;
+    font-weight: 500;
+    cursor: pointer;
+    font-size: 1rem;
+    white-space: nowrap;
+}
+
+
+@media (max-width: 1050px) {
+    .header-content {
+        max-width: 45%;
+    }
+}
+
+@media (max-width: 750px) {
+    .header {
+        height: 50vw;
+    }
+
+    .header-content {
+        max-width: 65%;
+        gap: 2vw;
+    }
+
+    .header-content h2 {
+        font-size: max(4vw, 1.8rem);
+    }
+
+    .header-content p {
+        display: none;
+    }
+
+    .header-content button {
+        padding: 2vw 14px;
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 650px) {
+    .header {
+        height: 50vh;
+        margin: 16px 12px;
+        border-radius: 20px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        padding: 40px;
+        max-width: 80vw;
+
+    }
+
+    .header-content {
+        max-width: 90%;
+        left: 5vw;
+        bottom: 8%;
+        gap: 12px;
+    }
+
+    .header-content h2 {
+        font-size: 5.5vw;
+    }
+
+    .header-content button {
+        padding: 10px 16px;
+        font-size: 1rem;
+    }
+}
+

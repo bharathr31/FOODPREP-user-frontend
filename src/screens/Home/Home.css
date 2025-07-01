@@ -1,0 +1,37 @@
+/* Layout for search & sort controls */
+.home-controls {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 1rem;
+  margin: 1rem;
+}
+
+.home-controls input,
+.home-controls select {
+  flex: 1 1 200px;
+  max-width: 250px;
+  padding: 0.5rem 0.75rem;
+  border: 1px solid var(--fg);
+  border-radius: 4px;
+  background-color: var(--bg);
+  color: var(--fg);
+  font-size: 1rem;
+  transition: border-color 0.2s, box-shadow 0.2s;
+  margin-left: -1vw;
+}
+
+.home-controls input:focus,
+.home-controls select:focus {
+  outline: none;
+  border-color: #008cff;
+  box-shadow: 0 0 0 2px rgba(0, 140, 255, 0.2);
+}
+
+@media (max-width: 600px) {
+  .home-controls {
+    flex-direction: column;
+    align-items: stretch;
+  }
+}
