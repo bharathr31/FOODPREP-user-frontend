@@ -198,6 +198,9 @@ tr + tr {
 [data-theme="dark"] .my-orders-order p {
   color: var(--fg) !important;
 }
+[data-theme="dark"] .explore-menu h1 {
+  color: var(--fg) !important;
+}
 /*────────────────────────────────────────────────────────────────────
    2) Remove that blue “selection” highlight on your table cells
 ────────────────────────────────────────────────────────────────────*/
