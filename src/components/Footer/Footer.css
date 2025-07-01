@@ -60,10 +60,7 @@
 }
 @media (max-width: 650px)
 {
-    .footer
-    {
-        max-width: 70vw;
-    }
+    
     .footer-left
     {
         max-width: 80vw;

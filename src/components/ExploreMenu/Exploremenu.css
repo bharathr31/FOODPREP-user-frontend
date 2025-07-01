@@ -97,6 +97,10 @@
     {
         display: none;
     }
+    .home-controls
+    {
+        height: 10vw;
+    }
 }
 
 @media (max-width: 500px) {
