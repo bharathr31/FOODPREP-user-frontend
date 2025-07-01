@@ -1,5 +1,4 @@
 import { useContext, useEffect } from 'react';
-import './Verify.css';
 import { Storecontext } from '../../context/Storecontext';
 import { useNavigate, useSearchParams } from 'react-router-dom';
 import Loader from '../../components/Loader/loader';
