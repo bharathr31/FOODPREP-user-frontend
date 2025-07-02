@@ -50,11 +50,17 @@
         margin-top: 20px;
     }
 }
-@media (max-width:600px)
+@media(min-width:451px) and  (max-width:600px)
 {
     .place-order-left, .place-order-right
     {
         max-width: 70vw;
         padding: 20px;
+    }
+}
+@media (max-width:450px) {
+    .place-order
+    {
+        margin: 10vw;
     }
 }

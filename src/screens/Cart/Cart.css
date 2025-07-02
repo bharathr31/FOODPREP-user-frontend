@@ -115,7 +115,7 @@ border-radius: 5px;
     }
 }
 
-@media (max-width: 650px) {
+@media(min-width:451px) and (max-width: 650px) {
   .cart-items-title {
     max-width: 70vw;
     gap: 10px;
@@ -146,4 +146,10 @@ border-radius: 5px;
   .cart-total-details p {
     font-size: 1.1rem;
   }
+}
+@media (max-width:450px) {
+    .cart
+    {
+        margin: 10vw;
+    }
 }
