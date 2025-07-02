@@ -13,7 +13,7 @@ const Home = () => {
     <div>
       <Header />
       <ExploreMenu category={category} setcategory={setcategory} />
-      <div className="home-controls" style={{ display: 'flex', gap: '1rem', padding: '1rem' }}>
+      <div className="home-controls">
         <input
           type="text"
           placeholder="Search dishes"

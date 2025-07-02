@@ -141,7 +141,7 @@
 }
 
 
-@media (max-width: 750px) {
+@media (min-width:451px) and (max-width: 750px) {
     .navbar {
         flex-direction: column;
         align-items: center;
@@ -178,20 +178,30 @@
 
 
 @media (max-width: 450px) {
+     .navbar-menu {
+        display: none;
+    }
     .navbar {
         padding-block: 12px;
         padding-inline: 12px;
+        display: grid;
+        margin: 20px;
+        margin-left: 20vw;
     }
 
     .navbar .logo {
         width: 150px;
-        margin-left: -37vw;
+        place-self: center;
     }
 
     .navbar-right {
-        flex-direction: column;
-        align-items: flex-start;
+        margin-top: 10px;
+        justify-content: space-around;
         gap: 12px;
+    }
+    .navbar-right  button{
+
+        display: none;
     }
 
     .navbar button {
