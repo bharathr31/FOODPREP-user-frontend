@@ -90,3 +90,8 @@
         margin-left: -20px;
     }
 }
+@media (max-width:450px) {
+  .food-item{
+    margin: 0 auto;
+  }
+}

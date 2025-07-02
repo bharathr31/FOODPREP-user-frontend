@@ -185,8 +185,7 @@
         padding-block: 12px;
         padding-inline: 12px;
         display: grid;
-        margin: 20px;
-        margin-left: 20vw;
+        place-self: center;
     }
 
     .navbar .logo {

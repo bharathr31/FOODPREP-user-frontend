@@ -113,4 +113,9 @@
         font-size: 1rem;
     }
 }
-
+@media (max-width:450px) {
+    .header
+    {
+        min-width: 100%;
+    }
+}
